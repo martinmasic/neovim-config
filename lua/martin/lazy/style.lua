@@ -16,10 +16,6 @@ return {
     },
 
     {
-        "morhetz/gruvbox"
-    },
-
-    {
         "ellisonleao/gruvbox",
         name = "gruvbox",
         config = function()
