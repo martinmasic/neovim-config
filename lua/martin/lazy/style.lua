@@ -16,7 +16,7 @@ return {
     },
 
     {
-        "ellisonleao/gruvbox",
+        "ellisonleao/gruvbox.nvim",
         name = "gruvbox",
         config = function()
             require("gruvbox").setup({
