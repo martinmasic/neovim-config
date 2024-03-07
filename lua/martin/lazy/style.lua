@@ -20,10 +20,10 @@ return {
         name = "gruvbox",
         config = function()
             require("gruvbox").setup({
-                disable_background = false
+                disable_background = false,
             })
             vim.cmd("colorscheme gruvbox")
-            ColorMyPencils()
+            -- ColorMyPencils()
         end
     },
 

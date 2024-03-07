@@ -49,6 +49,8 @@ vim.api.nvim_create_autocmd("BufEnter", {
         vim.opt.softtabstop = 2
         vim.opt.shiftwidth = 2
 
+        vim.opt.colorcolumn = ""
+
         vim.opt.nu = false
         vim.opt.relativenumber = false
     end,
